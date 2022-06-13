@@ -1,0 +1,152 @@
+body {
+	color: white;
+	font-family: 'Ebrima', regular;
+}
+
+nav a ,
+.container a{
+	text-decoration: none !important;
+}
+
+h1,h2,h3,h4,h5 {
+	font-size: 2.5rem !important;
+	padding-top: 65px;
+}
+
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+h5 {
+	letter-spacing: 5px;
+	padding-bottom: 55px;
+}
+
+#architettura {
+	width: 50%;
+	padding-top: 40px;
+	padding-bottom: 120px;
+}
+
+#wireframehome {
+	width: 50%;
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+
+#wireframehome2 {
+	width: 50%;
+	padding-top: 0px;
+	padding-bottom: 100px;
+}
+
+/***** image logo for all pages ******/
+
+#homeimage {
+	width: 60%;
+	margin: 100px 20% 0px 20%;
+}
+
+/**** Search bar css rules ******/
+
+.gif-box-row {
+	padding-left: 70px;
+    padding-right: 104px;
+}
+
+.gif-box .content {
+	text-transform: uppercase;
+	color:black;
+}
+
+.gif-box .content:hover {
+	color:grey;
+}
+
+.gif-box-icon {
+	width: 40%;
+	margin: 70px 5% 30px 5%;
+}
+
+#film {
+	margin-left:6.5%;
+}
+
+#musical {
+	margin-left:22%;
+}
+
+/**** Search bar css rules ******/
+
+#search-box {
+	margin-top: 60px;
+}
+
+#search-box button {
+	color: white;
+}
+
+/**** Footer css rules ******/
+
+footer a {
+	text-decoration: none!important;
+}
+
+footer .icon-footer {
+	width: 2%;
+}
+
+footer .footer-sign {
+	text-align: center;
+    font-size: 12px;
+    text-transform: capitalize;
+	margin-top: 10px;
+}
+
+/***** css rules for film, musical, animation & serie TV*/
+
+.locandina {
+	width: 240px;
+	height: 360px;
+	margin: 54px 26.1px 30px;
+}
+
+.find-result
+{
+	color:red;
+}
+
+/* questa regola vale solo per le locandine visualizzate tramite la search bar*/
+.find-result .locandina {
+	width: 170px;
+    height: 300px;
+    margin-left: 25%;
+}
+
+
+/**** responsive section that applies just into small screen ****/
+
+@media (max-width: 576px) { 
+	.gif-box-icon {
+		width: 66%;
+		margin-top:30px;
+	}
+
+	#search-box .form-control {
+		margin-left:70px;
+	}
+
+	#search-box .btn {
+		margin-right:70px;
+	}
+
+	footer .icon-footer {
+		width: 3%;
+	}
+
+	.locandina {
+		width: 135px;
+		height: 255px;
+	}
+}
